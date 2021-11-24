@@ -66,7 +66,10 @@ section:nth-child(even){
 header{
     position: fixed;
     top:0; left: 0; right:0;
-    background: #fff;
+    height: 47px;
+    /* background: #fff; */
+    /* background-color: #192a56; */
+    background-color: #24292f;
     padding:1rem 7%;
     display: flex;
     align-items: center;
@@ -76,7 +79,8 @@ header{
 }
 
 header .logo{
-    color:var(--black);
+    /* color:var(--black); */
+    color: white;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -91,7 +95,8 @@ header .navbar a{
     border-radius: .5rem;
     padding:.5rem 1.5rem;
     /* color:var(--light-color); */
-    color: #192a56;
+    /* color: #192a56; */
+    color: #fff;
 }
 
 header .navbar a.active,
@@ -110,8 +115,9 @@ header .icons a{
     text-align: center;
     font-size: 1.7rem;
     color:var(--black);
+    color: white;
     border-radius: 50%;
-    background: #eee;
+    /* background: #eee; */
 }
 
 header .icons i:hover,
@@ -186,7 +192,8 @@ header .icons #menu-bars{
 }
 
 #login{
-    color:darkblue;
+    color:white;
+    font-weight: bold;
 }
 .home .home-slider .slide .content{
     flex:1 1 45rem;
